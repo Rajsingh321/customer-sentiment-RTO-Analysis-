@@ -135,7 +135,7 @@ All key insights are presented through an interactive Streamlit dashboard that i
 </p>
 """, unsafe_allow_html=True)
 
-st.image("meesho/files/dashboard.jpg", caption="RTO Dashboard Overview", use_column_width=True)
+st.image("meesho/files/dashboard.jpg", caption="RTO Dashboard Overview", use_container_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -204,5 +204,6 @@ with col2:
     """, unsafe_allow_html=True)
 
     st.download_button("📄 See Resume", "meesho/files/Rajsingh_DataAnalyst_Resume.pdf", file_name="Rajsingh_Data_Analyst_Resume.pdf", key="See Resume")
+
 
 
