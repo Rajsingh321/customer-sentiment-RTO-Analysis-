@@ -90,7 +90,7 @@ with col3:
             </p>
         </div>
     """, unsafe_allow_html=True)
-    with open("files/meesho_RTO_Analysis.pbix", "rb") as f:
+    with open("meesho/files/meesho_RTO_Analysis.pbix", "rb") as f:
         st.download_button("See Dashboard", f, file_name="meesho_RTO_Analysis.pbix", key="See Dashboard")
 
 # --- Data Storytelling ---
@@ -204,3 +204,4 @@ with col2:
     """, unsafe_allow_html=True)
 
     st.download_button("📄 See Resume", "files/Rajsingh_DataAnalyst_Resume.pdf", file_name="Rajsingh_Data_Analyst_Resume.pdf", key="See Resume")
+
