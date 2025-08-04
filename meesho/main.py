@@ -197,13 +197,14 @@ with col1:
 with col2:
     st.markdown("""
     <p style='font-size: 20px;'> 
-    🔗 <a href="https://github.com/Rajsingh321/customer-sentiment-RTO-Analysis-/blob/main/meesho/main.py" target="_blank">GitHub Repository</a><br>
+    🔗 <a href="https://github.com/Rajsingh321/customer-sentiment-RTO-Analysis-/tree/main" target="_blank">GitHub Repository</a><br>
     🔗 <a href="https://www.linkedin.com/in/rajsinghsendhav" target="_blank">LinkedIn</a><br>
     🔗 <a href="https://rajsingh-sendhav-data-analytics-portfolio-x5kgg6xfxmkqdex5sbdq.streamlit.app/" target="_blank">Portfolio Website</a>
     </p>
     """, unsafe_allow_html=True)
 
     st.download_button("📄 See Resume", "meesho/files/Rajsingh_DataAnalyst_Resume.pdf", file_name="Rajsingh_Data_Analyst_Resume.pdf", key="See Resume")
+
 
 
 
